@@ -14,7 +14,7 @@ const ProductScreen = ({ match }) => {
             setProduct(data);
         }
         fetchProduct();
-    }, []);
+    }, [match]);
 
     return (
         <>
@@ -30,7 +30,7 @@ const ProductScreen = ({ match }) => {
                             <h2>{product.name}</h2>
                         </ListGroupItem>
                         <ListGroupItem>
-                            <Rating text={`${product.numReviews} reviews`} value={product.rating} />
+                            <Rating value={product.rating} text={`${product.numReviews} reviews`} />
                         </ListGroupItem>
                         <ListGroupItem>
                             Price: ${product.price}
