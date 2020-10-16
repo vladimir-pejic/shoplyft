@@ -1,0 +1,22 @@
+{
+  "name": "shoplyft",
+  "version": "1.0.0",
+  "description": "MERN Ecommerce App",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-pejic/shoplyft.git"
+  },
+  "author": "Vladimir Pejic <vladimir.pejic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/vladimir-pejic/shoplyft/issues"
+  },
+  "homepage": "https://github.com/vladimir-pejic/shoplyft#readme"
+}
